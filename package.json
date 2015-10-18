@@ -1,8 +1,27 @@
 {
-  "name": "acceptVersion",
+  "name": "express-accept-version",
   "version": "1.0.0",
+  "description": "Parsing Accept-Version on expressjs",
   "main": "index.js",
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/donginl/acceptVersion.git"
+  },
+  "author": "donginl",
+  "license": "MIT",
   "dependencies": {
     "semver": "^5.0.3"
-  }
+  },
+  "bugs": {
+    "url": "https://github.com/donginl/acceptVersion/issues"
+  },
+  "engines": {
+    "node": ">=0.10"
+  },
+  "homepage": "https://github.com/donginl/acceptVersion",
+  "keywords": [
+    "Accept-Version",
+    "accept-version",
+    "express"
+  ]
 }

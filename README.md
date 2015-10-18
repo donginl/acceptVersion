@@ -1,4 +1,4 @@
-# acceptVersion
+# express-accept-version
 
 [![Build Status](https://travis-ci.org/donginl/acceptVersion.svg?branch=master)](https://travis-ci.org/donginl/acceptVersion)
 [![NPM](https://img.shields.io/npm/v/acceptVersion.svg)](https://npmjs.org/package/acceptVersion)
@@ -7,21 +7,21 @@
 [![Donate](https://img.shields.io/gratipay/donginl.svg)](https://gratipay.com/donginl)
 
 Parsing `Accept-Version` on [expressjs](https://github.com/strongloop/express)
-`acceptVersion` supported [semver](http://semver.org) version
+`express-accept-version` supported [semver](http://semver.org) version
 
 ## Support platforms
-The `acceptVersion` module works with Node.js v0.10.x and later version too.
+The `express-accept-version` module works with Node.js v0.10.x and later version too.
 
 ## Installation
 ```
-$ npm install acceptVersion
+$ npm install express-accept-version
 ```
 
 ## Usage
 
 ```js
 var express = require('express'),
-    acceptVersion = require('acceptVersion');
+    acceptVersion = require('express-accept-version');
 
 var app = express();
 app.use(acceptVersion([versions]); // [versions] is your server supported version, Allow type : Array, String

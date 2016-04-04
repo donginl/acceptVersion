@@ -1,12 +1,12 @@
 # express-accept-version
 
 [![Build Status](https://travis-ci.org/donginl/acceptVersion.svg?branch=master)](https://travis-ci.org/donginl/acceptVersion)
-[![NPM](https://img.shields.io/npm/v/acceptVersion.svg)](https://npmjs.org/package/acceptVersion)
-[![NPM Downloads](https://img.shields.io/npm/dm/acceptVersion.svg)](https://npmjs.org/package/acceptVersion)
+[![NPM](https://img.shields.io/npm/v/express-accept-version.svg)](https://npmjs.org/package/express-accept-version)
+[![NPM Downloads](https://img.shields.io/npm/dm/express-accept-version.svg)](https://npmjs.org/package/express-accept-version)
 [![License](https://img.shields.io/badge/license-MIT-yellow.svg)](https://github.com/donginl/acceptVersion/blob/master/LICENSE)
 [![Donate](https://img.shields.io/gratipay/donginl.svg)](https://gratipay.com/donginl)
 
-Parsing `Accept-Version` on [expressjs](https://github.com/strongloop/express)
+Parsing `Accept-Version` on [expressjs](https://github.com/strongloop/express)<br/>
 `express-accept-version` supported [semver](http://semver.org) version
 
 ## Support platforms
@@ -38,4 +38,4 @@ app.get('/', function(req, res, next) {
 })
 ```
 
-### Author: [DONG IN LEE](https://github.com/donginl)
+### Author: [DONGIN LEE](https://github.com/donginl)

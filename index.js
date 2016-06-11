@@ -1,12 +1,12 @@
 'use strict';
 const semver = require('semver');
 
-module.exports = function(versions) {
+module.exports = (versions) => {
     if (!Array.isArray(versions)) {
         versions = [versions];
     }
 
-    return function(req, res, next) {
+    return (req, res, next) => {
         var version = req.get('Accept-Version') || '*',
             maximum = semver.maxSatisfying(versions, version);
 

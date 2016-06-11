@@ -20,13 +20,13 @@ $ npm install express-accept-version
 ## Usage
 
 ```js
-var express = require('express'),
-    acceptVersion = require('express-accept-version');
+const express = require('express'),
+      acceptVersion = require('express-accept-version');
 
-var app = express();
+let app = express();
 app.use(acceptVersion([versions]); // [versions] is your server supported version, Allow type : Array, String
 
-app.get('/', function(req, res, next) {
+app.get('/', (req, res, next) => {
   switch(req.acceptVersion) { // req.acceptVersion is client maximum Accept-Version
     case '1.0.0':
       // 1.0.0 logic
@@ -35,7 +35,7 @@ app.get('/', function(req, res, next) {
       // latest logic
       break;
   }
-})
+});
 ```
 
 ### Author: [DONGIN LEE](https://github.com/donginl)
